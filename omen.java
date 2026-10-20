@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.event.*;
 
-public class moseen extends JFrame implements ActionListener
+public class omen extends JFrame implements ActionListener
 {
   JLabel lblName, lblRoll, lblGender, lblBranch;
   JTextField txtName, txtRoll, txtBranch;
@@ -10,7 +10,7 @@ public class moseen extends JFrame implements ActionListener
   JCheckBox terms;
   JButton submit, reset;
 
-   public moseen () 
+   public omen () 
    {
         setTitle("Student Registration Form");
         setSize(1000, 1000);
@@ -129,7 +129,7 @@ public class moseen extends JFrame implements ActionListener
     
      public static void main(String[] args)
     {
-        new moseen();
+        new omen();
     }
 
   }
